@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FitX</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Orbitron:wght@600&display=swap" rel="stylesheet">
+<style>
+    /* CSS Reset */
+    body {
+        margin: 14px;
+        padding: 14px;
+        background: url('women-gym.webp') no-repeat center fixed;
+        background-size: cover;
+        opacity: 1.5;
+    }
+
+    .left {
+        display: inline-block;
+        /* border: 2px solid grey; */
+        position: absolute;
+    }
+
+    .left figure img{
+        width: 60px;
+        filter: invert(95%);
+        position: relative;
+    }
+    .left figure img:hover, .left figure img.active{
+        opacity: 0.5;
+
+    }
+    .left figure figcaption{
+        color: bisque;
+        text-align:left;
+        font-size:25px;
+        font-weight: 200 bolder;
+        font-family:'Orbitron', sans-serif;
+        font-family: 'Cinzel Decorative', cursive;
+    }
+
+    .mid {
+        display: block;
+        /* border: 2px solid grey; */
+        width: 60%;
+        margin: auto;
+    }
+
+    .right {
+        display: inline-block;
+        /* border: 2px solid grey; */
+        position: absolute;
+        right: 0px;
+        top: 0px;
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 20px;
+    }
+
+    .navbar li a {
+        color: rgb(253, 221, 161);
+        text-decoration: none;
+        font-size: 20px;
+        padding: 40px 50px;
+        font-family:'Times New Roman', Times, serif
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        color: white;
+        /* text-decoration: underline overline white; */
+        background-color: rgb(172, 113, 113);
+    }
+
+    .btn {
+        background-color: black;
+        color: peachpuff;
+        border: 2px solid grey;
+        cursor: pointer;
+    }
+    .btn:hover{
+        background-color: rgb(123, 95, 95);
+    }
+    .container{
+        /* border: 2px solid white; */
+        margin: auto;
+        padding:5%;
+        width:70%;
+        border-radius: 2px;
+    }
+    .container h1,h2{
+        color: white;
+    }
+    .box{
+        display: block;
+        width: 300px;
+        margin: 50px 560px;
+
+    }
+    .box button{
+        background-color: rgb(252, 212, 120);
+        color: rgb(51, 4, 4);
+        /* border: 2px solid grey; */
+        cursor: pointer;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 5px;
+        margin-right: 5px;
+        padding: 11px 45px;
+        text-align: center;
+        font-size: 18px;
+        border-radius: 28px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .box button:hover{
+        background-color: rgb(232, 158, 61);
+    }
+    #GFG{
+        text-decoration: none;
+        color: rgb(101, 101, 172);
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+</style>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <figure>
+                <a id="GFG" href="index.html">
+                <img src="69840.png" alt="icon">
+                <figcaption>FitX</figcaption>
+                </a>
+            </figure>
+            
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#">Home</a> </li>
+                <li><a href="#">About Us</a> </li>
+                <li><a href="#">Pricing</a> </li>
+                <li><a href="#">Contact Us</a> </li>
+            </ul>
+        </div>
+        <div class="right">
+            <button class="btn">
+                Chat Now
+            </button>
+            <button class="btn">
+                Email Us
+            </button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Be Fit. Be YOU.</h1>
+        <h2>Sign Up NOW and Grab 50% discount on monthly membership!</h2>
+    </div>
+    <div class="box">
+        <button class="button"><a id="GFG" href="/pricing.html" alt='Broken Link'>
+            Start Today</a>
+        </button>
+    </div>
+</body>
+
+</html>
